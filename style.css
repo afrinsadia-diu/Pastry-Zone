@@ -32,7 +32,7 @@ body{
   margin-top: 15px;
   height: 540px;
 }
-#section2 {
+.section2 {
   background-image: url(Img/7.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -71,8 +71,8 @@ h2 {
   background-image: linear-gradient(salmon, orange);
   color: white;
   font-size: 25px;
-  padding: 20px 50px;
-  border-radius: 50px;
+  padding: 10px 35px;
+  border-radius: 30px;
   margin-top: 40px;
 }
 section a {
@@ -86,15 +86,37 @@ section a {
     padding-right: 300px;
 }
 .radius{
-    border-radius: 15%;
-    width: 80%;
-    padding: 5% ;
+    border-radius: 15px;
+    width: 100%;
 }
-.recipe {
-  padding-left: 20px;
-  margin-right: 2%;
-  margin-left: 8%;
-  width: 20%;
+#border-sec h2{
+  font-size: 25px;
+}
+.recipe1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-right: 2.5%;
+  margin-left: 7.5%;
+  width: 25%;
+  box-shadow: 14px 17px 40px grey;
+}
+.recipe2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 25%;
+  box-shadow: 14px 17px 40px grey;
+}
+.recipe3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-right: 7.5%;
+  margin-left: 2.5%;
+  width: 25%;
   box-shadow: 14px 17px 40px grey;
 }
 .recipe h2{
@@ -102,7 +124,7 @@ section a {
 }
 #border-sec{
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .last-sec{
   width: 30%;
@@ -115,11 +137,6 @@ section a {
   display: flex;
   box-shadow: 10px 10px 50px rgb(212, 199, 199);
   border-radius: 40px;
-}
-.social h1{
-  text-align: center;
-  font-size: 40px;
-  line-height: 0;
 }
 .youtube{
   width: 30%;
@@ -210,13 +227,71 @@ hr{
 }
 
 footer{
+  height: 450px;
+  background-color: rgb(61, 56, 56);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer h2{
+  color:white;
   text-align: center;
-  background-color: black;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  margin-bottom: 0;
+
 }
 footer p{
-  color: #f2f2f2;
+  color: white;
+  text-align: center;
 }
+
+.footer-features{
+  display: flex;
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+  
+}
+.footer-heading{
+  font-size: 30px;
+  text-align: left;
+}
+
+.popular-products{
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 7.5%;
+  margin-right: 2.5%;
+  
+
+}
+.key-products{
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  
+}
+
+.contacts{
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 2.5%;
+  margin-right: 7.5%;
+}
+ul li{
+  list-style: none;
+  
+  
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(160, 153, 153);
+  
+}
+.footer-item{
+  width: 25%;
+  padding: 20px;
+}
+
 

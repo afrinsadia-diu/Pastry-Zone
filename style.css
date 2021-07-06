@@ -110,6 +110,105 @@ section a {
  margin-right: 50px;
   
 }
+.social-content{
+  margin: 100px;
+  display: flex;
+  box-shadow: 10px 10px 50px rgb(212, 199, 199);
+  border-radius: 40px;
+}
+.social h1{
+  text-align: center;
+  font-size: 40px;
+  line-height: 0;
+}
+.youtube{
+  width: 30%;
+  padding: 5%;
+  
+  
+}
+.youtube h1{
+  text-align: center;
+}
+.youtube p{
+  text-align: center;
+}
+.instagram{
+  width: 30%;
+  padding: 5%;
+
+}
+.instagram h1{
+  text-align: center;
+}
+.instagram p{
+  text-align: center;
+}
+.dribble{
+  width: 30%;
+  padding: 5%;
+}
+.dribble h1{
+  text-align: center;
+}
+.dribble p{
+  text-align: center;
+}
+.client-section{
+  margin-bottom: 50px;
+
+}
+hr{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.clients{
+  display: flex;
+  width: 100%;
+
+}
+.client1{
+  width: 25%;
+  margin-right: 2.5%;
+  margin-left: 7.5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+
+
+}
+.client1 p{
+  line-height: 1.5;
+}
+.client2{
+  width: 25%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  text-align: center;
+
+
+}.client2 p{
+  line-height: 1.5;
+}
+.client3{
+  width: 25%;
+  margin-left: 2.5%;
+  margin-right: 7.5%;
+  text-align: center;
+
+
+}
+.client3 p{
+  line-height: 1.5;
+}
+
+
+.image{
+  border-radius: 50%;
+  width: 70%;
+  border: 2px solid tomato;
+}
+
 footer{
   text-align: center;
   background-color: black;
